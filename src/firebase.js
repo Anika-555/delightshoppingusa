@@ -6,13 +6,13 @@ import { getStorage } from 'firebase/storage';
 const firebaseConfig = {
  
 
-  apiKey: "AIzaSyDaPrwZKEsKDMZAW-iGF6l1YfKoairDEt4",
-  authDomain: "delight-sprite.firebaseapp.com",
-  projectId: "delight-sprite",
-  storageBucket: "delight-sprite.firebasestorage.app",
-  messagingSenderId: "1084703954513",
-  appId: "1:1084703954513:web:aacccf6e336fb5a930ca70",
-  measurementId: "G-7RB397E4X3"
+  apiKey: "AIzaSyA5SCdeKgOUb6C9J2YLo21YY1ZA5OSPSI4",
+  authDomain: "delightshoppingusa-a3567.firebaseapp.com",
+  projectId: "delightshoppingusa-a3567",
+  storageBucket: "delightshoppingusa-a3567.firebasestorage.app",
+  messagingSenderId: "630791305031",
+  appId: "1:630791305031:web:b89a529dc63e2a69703e62",
+  measurementId: "G-HD3KGTRHG3"
 };
 
 const app = initializeApp(firebaseConfig);
@@ -91,8 +91,8 @@ export const createAdminUser = async () => {
   adminCreationAttempted = true;
   
   try {
-    const adminEmail = "mdziq962#@gmail.com";
-    const adminPassword = "@zahidiq1MdX";
+    const adminEmail = "delightshoppingusa@admin.com";
+    const adminPassword = "Delight@admin";
     
     // First try to sign in with admin credentials
     try {
