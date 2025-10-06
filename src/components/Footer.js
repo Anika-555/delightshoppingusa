@@ -160,13 +160,13 @@ const Footer = () => {
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
               <Phone sx={{ mr: 1, opacity: 0.7 }} />
               <Typography variant="body2" sx={{ opacity: 0.7 }}>
-                +1 816 443 9859
+                +1 771 218 1891
               </Typography>
             </Box>
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
               <Email sx={{ mr: 1, opacity: 0.7 }} />
               <Typography variant="body2" sx={{ opacity: 0.7 }}>
-               shopping348965@gmail.com
+               info@elightshoppingusa.com
               </Typography>
             </Box>
             {/* <Box sx={{ display: 'flex', alignItems: 'center' }}>
